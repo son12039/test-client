@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:8080");
+const socket = io("https://test-server-zgr2.onrender.com");
 
 function App() {
   const [like, setLike] = useState(0);
